@@ -50,6 +50,15 @@ function setTile() {
     board[r][c] = currPlayer; 
     this.innerText = currPlayer; 
 
+    // Add CSS class based on the current player
+    if (currPlayer == playerO) {
+        this.classList.add("white");
+    } else {
+        this.classList.add("grey");
+    }
+    
+    
+
     //change players
     if (currPlayer == playerO) {
         currPlayer = playerX;

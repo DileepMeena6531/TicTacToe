@@ -13,10 +13,18 @@ hr {
 #board {
     width: 450px;
     height: 450px;
-    /* background-color: gray; */
+    background-color: rgb(45, 140, 168);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: rgb(104, 104, 104);
 }
 
 .tile {
